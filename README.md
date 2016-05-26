@@ -6,6 +6,10 @@ Calculator.jar package "src/calculator/Calculator.java" in this .jar file.
 
 1. update android project to generate property files.
 	```
+	android update project -p %absolute_path_for_this_project% --target %android_platform%
+	```
+	For example:
+	```
 	android update project -p C:\Users\Yeh\Desktop\AndroidJarMakerWithAnt --target android-23
 	```
 
